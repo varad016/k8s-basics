@@ -8,3 +8,9 @@ by using yml file
 load ballancer: acts as a manager of a parking lot 
 
 pushing 
+
+apiVersion
+kind
+metadata
+    name
+    labels
