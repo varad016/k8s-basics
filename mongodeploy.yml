@@ -3,23 +3,23 @@ kind: Deployment
 metadata:
   name: mongodb-deployment
   labels:
-  app: mongodb
-specs:
+    app: mongodb
+spec:
   replicas: 1
   selector:
-  matchlabels:
-    app: mongodb
+    matchLabels:
+      app: mongodb
   template:
     metadata:
-    labels:
-      app: mongodb
-    specs:
+      labels:
+        app: mongodb
+    spec:
       containers:
       - name: mongodb
-        image: mongo   
+        image: mongo
         ports:
         - containerPort: 27017
-        env: 
+        env:
         - name: MONGO_INITDB_ROOT_USERNAME
           valueFrom:
             secretKeyRef:
@@ -29,9 +29,8 @@ specs:
           valueFrom:
             secretKeyRef:
               name: mongodb-secret
-              key: mongo-root-password 
+              key: mongo-root-password
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
