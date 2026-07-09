@@ -14,3 +14,7 @@ kind
 metadata
     name
     labels
+
+
+ingress : ip to domain converter
+
