@@ -1,3 +1,5 @@
+master node -> slave nodes
+
 pods : stores containers, k8s manages pods and not containers
 
 namespaces : group
