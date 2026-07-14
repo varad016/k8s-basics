@@ -3,8 +3,8 @@ apiVersion: apps/v1
 metadata:
   name: nginx-deployment
   namespace: nginx
-spec:
-  replicas: 2
+spec:                        #specifications
+  replicas: 2                #how mant replicas of pods are req
   selector:
     matchLabels:
       app: nginx
