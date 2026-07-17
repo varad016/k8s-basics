@@ -25,3 +25,5 @@ HPA : increases the no of pods
 VPA: increases the size of a pod 
 keda: mix of both 
 
+
+
