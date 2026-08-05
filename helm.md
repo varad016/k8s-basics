@@ -4,5 +4,6 @@ to install the packages we use helm install xyzz
 
 a package is called as a chart, helm has collection of those 
 
-ubuntu has archieve
+ubuntu has archieve and helm has chart
 
+Release is deploployed instance of a chart
