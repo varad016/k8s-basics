@@ -1,0 +1,5 @@
+a pod has its own ip,
+but pod dies frequently so doez its ip and it creates a problem 
+you gotta change the ip everywhere and all due to that 
+
+so to avoid such stuff we use services
